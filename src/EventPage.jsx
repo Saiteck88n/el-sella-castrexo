@@ -56,6 +56,17 @@ export default function EventPage() {
       <section className="p-8">
   <h2 className="text-3xl mb-4 font-bold">Cómo llegar</h2>
   <div className="flex flex-col items-center mt-6 space-y-2">
+<section className="p-8">
+  <h2 className="text-3xl mb-4 font-bold">Mapa</h2>
+  <div className="flex justify-center">
+    <img
+      src="/mapa.png"
+      alt="Mapa desde Barcelona a Vigo"
+      className="rounded-lg shadow-lg w-full max-w-2xl"
+    />
+  </div>
+</section>
+
     <div>
       <a
         href="https://www.thetrainline.com/book/results?journeySearchType=return&origin=urn%3Atrainline%3Ageneric%3Aloc%3A33349&destination=urn%3Atrainline%3Ageneric%3Aloc%3A27205&outwardDate=2025-08-08T23%3A15%3A59&outwardDateType=departAfter&inwardDate=2025-08-10T00%3A30%3A59&inwardDateType=departAfter&selectedTab=train&splitSave=true&lang=es"
